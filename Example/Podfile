@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HETOpenSDK4.0_Example' do
+  pod 'HETOpenSDK4.0', :path => '../'
+
+  target 'HETOpenSDK4.0_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
