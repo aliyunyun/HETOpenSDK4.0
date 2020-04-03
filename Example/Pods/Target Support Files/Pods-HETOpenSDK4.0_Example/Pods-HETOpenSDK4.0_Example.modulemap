@@ -1,0 +1,6 @@
+framework module Pods_HETOpenSDK4_0_Example {
+  umbrella header "Pods-HETOpenSDK4.0_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module HETOpenSDK4_0 {
+  umbrella header "HETOpenSDK4.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D33294DF75B7FFC5F064314 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		31C9E97453EBBD77DAF11D85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2D33294DF75B7FFC5F064314 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		31C9E97453EBBD77DAF11D85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		44EA5A36972A4D5056105CF5 /* Pods-HETOpenSDK4.0_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETOpenSDK4.0_Tests.release.xcconfig"; path = "Target Support Files/Pods-HETOpenSDK4.0_Tests/Pods-HETOpenSDK4.0_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HETOpenSDK4.0_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HETOpenSDK4.0_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		B14B1C237750BB400CEA9813 /* Pods-HETOpenSDK4.0_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETOpenSDK4.0_Example.debug.xcconfig"; path = "Target Support Files/Pods-HETOpenSDK4.0_Example/Pods-HETOpenSDK4.0_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5636FE22C2F7C6E792E8C1A /* Pods_HETOpenSDK4_0_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HETOpenSDK4_0_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72CAAE5BBA5F69977D6E747 /* Pods-HETOpenSDK4.0_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HETOpenSDK4.0_Example.release.xcconfig"; path = "Target Support Files/Pods-HETOpenSDK4.0_Example/Pods-HETOpenSDK4.0_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C8201578651A3DBA28A6A401 /* HETOpenSDK4.0.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HETOpenSDK4.0.podspec; path = ../HETOpenSDK4.0.podspec; sourceTree = "<group>"; };
+		C8201578651A3DBA28A6A401 /* HETOpenSDK4.0.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HETOpenSDK4.0.podspec; path = ../HETOpenSDK4.0.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E424051A65A7488253BF451D /* Pods_HETOpenSDK4_0_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HETOpenSDK4_0_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				89467AAC951E52FFF86EABF9 /* Pods-HETOpenSDK4.0_Tests.debug.xcconfig */,
 				44EA5A36972A4D5056105CF5 /* Pods-HETOpenSDK4.0_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
